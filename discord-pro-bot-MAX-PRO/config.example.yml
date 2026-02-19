@@ -1,0 +1,30 @@
+defaults:
+  moderation:
+    log_channel_id: null
+    staff_role_id: null
+
+  welcome:
+    welcome_channel_id: null
+    goodbye_channel_id: null
+    autorole_id: null
+
+  tickets:
+    enabled: true
+    category_id: null
+    staff_role_id: null
+    log_channel_id: null
+
+  xp:
+    enabled: true
+    cooldown_seconds: 45
+    xp_per_message: 15
+    ignored_channel_ids: []
+    level_rewards: {} # pvz: { "5": 123456789012345678, "10": 234... }
+
+  role_menu:
+    options: []
+    # - label: "Gamer"
+    #   role_id: 123
+    #   description: "Gauni Gamer rolę"
+
+guilds: {}
